@@ -1,0 +1,129 @@
+a {
+  text-decoration: none;
+  color: white;
+  font-style: "Times New Roman", serif;
+}
+
+.nave-bar {
+  padding-bottom: 10px;
+  background-color: #2c3a46;
+}
+.nave-bar .line {
+  padding: 10px;
+}
+.nave-bar hr {
+  width: 1000px;
+  margin-bottom: 5px;
+  border: 10px solid #e7ac82;
+  border-radius: 5px;
+}
+.nave-bar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.nave-bar ul li {
+  color: white;
+}
+.nave-bar nav {
+  border-style: solid;
+  border-top-style: solid #000000;
+  border-left-style: solid #000000;
+  border-right-style: solid #000000;
+  border-width: 2px;
+}
+
+.headerr {
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+  background-image: url("3355386.jpg");
+  background-size: cover;
+}
+.headerr .contact {
+  padding-left: 900px;
+  font-family: "Times New Roman", serif;
+  font-size: 50px;
+  color: white;
+}
+.headerr .contact h3 {
+  background-color: rgba(0, 0, 0, 0.5803921569);
+  border-style: solid none solid solid;
+  border-width: 5px;
+  border-color: #e7ac82;
+}
+.headerr .myadd h3 {
+  display: inline-block;
+  color: white;
+  font-family: "Times New Roman", serif;
+  font-size: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.headerr .myadd .loc {
+  display: inline-block;
+  width: 67px;
+  height: 70px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+}
+.headerr .mp iframe {
+  width: 500px;
+  height: 300px;
+  border: 0;
+  padding-left: 50px;
+}
+.headerr .phnema {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding-left: 870px;
+}
+.headerr .phnema .phone {
+  padding-right: 170px;
+}
+.headerr .phnema .ma {
+  padding-right: 60px;
+}
+.headerr .phnema img {
+  background-color: #041420;
+  border-style: none none solid none;
+  border-width: 5px;
+  border-color: #e7ac82;
+  width: 90px;
+  height: 90px;
+}
+.headerr .lin {
+  padding-left: 970px;
+  padding-top: 20px;
+}
+.headerr .lin img {
+  border-style: none none solid none;
+  border-width: 5px;
+  border-color: #e7ac82;
+  width: 90px;
+  height: 90px;
+}
+
+.footer {
+  margin-top: auto;
+  background: linear-gradient(90deg, #e7ac82, #FFD700);
+  text-align: center;
+  padding: 15px 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #000;
+}/*# sourceMappingURL=portfolio_contact.css.map */
